@@ -12,7 +12,8 @@ Install:
 Publish:
 
     docker-compose exec ipfs sh
-    cd /data/mydata
+    cd /data
+    cd mydata/
     ipfs add ./index.html
 
 Open local:<br>
