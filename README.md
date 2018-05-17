@@ -13,7 +13,9 @@ Install:
 
 Publish:
 
-    docker-compose exec ipfs 'ipfs add -r -p -w /data/mydata/index.html'
+    docker-compose exec ipfs sh
+    cd /data/mydata
+    ipfs add -r -p -w ./index.html
 
 Open local:<br>
 http://localhost:8000/<hash here\><br>
