@@ -8,8 +8,7 @@ Install:
     git clone https://github.com/andreydiveev/ipfs
     cd ipfs
     mkdir mydata
-    cd mydata
-    echo "1" > index.html
+    echo "1" > ./mydata/index.html
     docker-compose up -d
 
 Publish:
