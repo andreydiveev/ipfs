@@ -8,14 +8,14 @@ Install:
     git clone https://github.com/andreydiveev/ipfs
     cd ipfs
     mkdir mydata
-    echo "1" > ./mydata/index.html
+    echo "\<h1\>Hello\!\!\!\<\/h1\>" > ./mydata/index.html
     docker-compose up -d
 
 Publish:
 
     docker-compose exec ipfs sh
     cd /data/mydata
-    ipfs add -r -p -w ./index.html
+    ipfs add ./index.html
 
 Open local:<br>
 http://localhost:8000/<hash here\><br>
