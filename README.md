@@ -7,8 +7,6 @@ Install:
 
     git clone https://github.com/andreydiveev/ipfs
     cd ipfs
-    mkdir mydata
-    echo "Hello!" > ./mydata/index.html
     docker-compose up -d
 
 Publish:
@@ -18,7 +16,7 @@ Publish:
     ipfs add ./index.html
 
 Open local:<br>
-http://localhost:8000/<hash here\><br>
+http://localhost:8000/ipfs/<hash here\><br>
 
 Open global:<br>
 http://ipfs.io/ipfs/<hash here\>
