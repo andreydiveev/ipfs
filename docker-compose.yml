@@ -1,0 +1,16 @@
+version: "3"
+services:
+  ipfs:
+    restart: always
+    image: ipfs/go-ipfs
+    environment:
+      MYVAR: test
+    volumes:
+      - ./ipfs_upload:/data/ipfs
+      - ./mydata:/data/mydata
+    ports:
+      - 4001:4001
+      - 8000:8080
+      - 8001:5001
+    command:
+      - "--enable-pubsub-experiment"
