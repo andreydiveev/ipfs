@@ -9,8 +9,7 @@ Install:
     cd ipfs
     mkdir mydata
     cd mydata
-    touch index.html
-    echo 1 > index.html
+    echo "1" > index.html
     docker-compose up -d
 
 Publish:
