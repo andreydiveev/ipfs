@@ -14,11 +14,20 @@ Publish:
     docker-compose exec ipfs sh
     cd /data/mydata
     ipfs add ./index.html
+    exit
 
 Open local:<br>
-http://localhost:8000/ipfs/<hash here\><br>
+http://localhost:8000/ipfs/<your hash here\><br>
 
 Open global:<br>
-http://ipfs.io/ipfs/<hash here\>
+http://ipfs.io/ipfs/<your hash here\>
 
-    
+### Offline!
+
+Stop the container:
+
+    docker-compose down
+
+A distributed resourse still be available!
+
+http://ipfs.io/ipfs/<your hash here\>
