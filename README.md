@@ -1,4 +1,4 @@
-# EXAMPLE
+# IPFS EXAMPLE
 
 ### WARNING!
 Files will be uploaded **IRREVERSIBLY FOREVER!!!**
